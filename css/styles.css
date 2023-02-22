@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap');
+
+:root {
+    --bg-red:#F03C42;
+    --color-white:#FFFFFF;
+    --bg-gray:#CCCCCC;
+    --bg-blue:#222374;
+    --bg-black:#000;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+* h1,h3{
+    font-style: bold;
+}
+
+
+header {
+    background-color: var(--bg-red);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    font-size: 18px;
+}
+
+header h3 {
+    font-size: 14px;
+}
+
+.container {
+    max-width: 100%;
+    width: 960px;
+    margin: 0 auto;
+      
+}
+
+.elements-header {
+    color: var(--color-white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.log-text {
+    display: flex;
+    align-items: center;
+}
+
+.log-text img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+#sobre-nos{
+    height: 418px;
+    background-color: var(--bg-blue);
+}
+
+.about-us h1 {
+    width: 357px;
+    height: 44px;
+    padding: 20px 0 0 0;
+    margin-bottom: 40px;
+    color: var(--color-white);
+    font-size: 32px;
+}
+
+.container-fitness-space {
+    
+    margin-bottom: 20px;
+}
+
+.container-fitness-space h3{
+   
+   padding: 20px;
+   font-size: 20px;
+}
+
+.container-fitness-space p {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.container-elements{
+    height: 127px;
+    background-color: var(--bg-gray);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#modalidades{
+    height: 880px;
+}
+
+#modalidades p{
+    width: 663px;
+    height: 19px;
+}
+
+.mod h1{
+    width: 204px;
+    height: 44px;
+    font-size: 32px;
+    color: var(--bg-red);
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.mod-elements-sports {
+    background-color: var(--bg-blue);
+    margin-bottom: 20px;
+    height: 106px;
+    color: var(--color-white);
+    border-radius: 8px;
+}
+
+.mod-elements-sports h3{
+
+    font-size: 20px;
+    padding: 20px;
+}
+
+.mod-elements-sports p{
+    font-size: 14px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    height: 262px;
+    background-color: var(--bg-black);
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+     
+}
+
+.todos-elementos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.texto-insta-twiter {
+    margin-left: 10px;
+  
+}
+
+.texto-insta-twiter-1{
+    padding: 0 0 0 19px;
+}
+
+.direitos{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
